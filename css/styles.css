@@ -264,9 +264,9 @@ h1{
 /* Banner de logos */
 .banner-clientes {
   display: flex;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 1.5rem auto;
-  border-radius: 1rem;
+
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(30,30,60,0.08);
   background: #fff;
