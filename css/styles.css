@@ -555,6 +555,14 @@ color: #fff;
   font-weight: 500;
 }
 
+
+
+
+
+
+.fondoquienesomos{
+  background-color: #0a1b45;
+}
 .card-nosotros {
  display: grid;
   /* Centra todos los items hija en horizontal y vertical */
@@ -776,6 +784,31 @@ color: #fff;
 }
 
 
+
+
+/* CSS */
+.valores-quzpide {
+  background: #fff; /* fondo blanco */
+}
+.valor-item .icono {
+  color: var(--color-cuspide-blue); /* azul Quzpide */
+}
+.valor-titulo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #0a1b45;
+}
+.valor-texto {
+  font-size: 1rem;
+  color: #333;
+}
+
+
+
+
+
+
 .quzpide-cards {
   display: grid;
   /* Una sola columna que ocupa todo el ancho disponible */
@@ -953,7 +986,18 @@ color: #fff;
     margin: 0.25rem 0;
   }
 }
-
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .valor-item .icono {
+    font-size: 2.5rem;
+  }
+  .valor-titulo {
+    font-size: 1.1rem;
+  }
+  .valor-texto {
+    font-size: 0.9rem;
+  }
+}
 
 .sin-viñeta {
   list-style-type: none !important;
