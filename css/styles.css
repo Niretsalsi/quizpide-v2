@@ -265,7 +265,7 @@ h1{
 .banner-clientes {
   display: flex;
   max-width: 100%;
-  margin: 1.5rem auto;
+  margin: 1.5rem .625rem;
 
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(30,30,60,0.08);
@@ -328,16 +328,6 @@ h1{
   padding: .25rem .75rem;
   margin: 0 .2rem;
 }
-
-/* Responsive para móvil */
-@media (max-width: 768px) {
-  .banner-clientes { flex-direction: column; }
-  .banner-texto { text-align: center; padding: 1.2rem; }
-  .banner-logos { min-height: 120px; }
-  .logo-group { justify-content: center; flex-direction: column; gap: .7rem; }
-  .logo-group img { max-width: 80px; max-height: 50px; }
-}
-
 
 
 
@@ -645,6 +635,7 @@ color: #fff;
   height: 100%;
   margin: .3125rem .3125rem;
   align-items: center;
+  gap: 1rem ;
 }
 
 .card-servicio:hover {
@@ -671,9 +662,7 @@ color: #fff;
   text-align: center;
 }
 
-.card-servicio .btn {
-  margin-bottom: 1rem;
-}
+
 
 .services-list1 {
   list-style: disc inside;
@@ -745,6 +734,11 @@ color: #fff;
   padding: .625rem .625rem;
   
 }
+
+
+
+
+
 
 /* Responsive: apilar en móvil */
 @media (max-width: 600px) {
@@ -889,6 +883,11 @@ color: #fff;
 .services-list6 li .no-transform {
   text-transform: none;
 }
+
+
+
+
+
 /* Móvil: apilar en columna  footer*/
 @media (max-width: 800px) {
   .seccionfooter {
@@ -943,6 +942,7 @@ color: #fff;
   /* Apilar todo el banner en columna */
   .banner-clientes {
     flex-direction: column;
+ margin-bottom: 20px !important;
     border-radius: 1rem;
     max-width: 100%;
     margin: 1rem 0.5rem;
